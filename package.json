@@ -1,0 +1,26 @@
+{
+  "name": "sort-lines",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx createExtendedData.ts && tsx createData.ts && tsx createSpellingData.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "sentence-splitter": "^5.0.0"
+  }
+}
